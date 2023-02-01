@@ -1,163 +1,88 @@
-const logotext = "JOHN";
+const logotext = "Emmanuel";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Emmanuel Sibanda",
+    description: "My name is Emmanuel, I enjoy writing code, analyzing data and building businesses",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Emmanuel Sibanda",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I build cool things",
+        second: "I analyze data and help you uncover insights",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Let's set up a free intro call to chat about your needs and how I can help you",
+    your_img_url: "https://pbs.twimg.com/profile_images/1605969249947844609/msEHeCO-_400x400.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit more about myself",
+    aboutme: "I like to write code and analyze data to help you uncover new insights about your users. I primarily code in Python, JavaScript and Bubble (No Code). I use frameworks like React, Vue, Django, NodeJS and Flask. I use SQL and Excel to analyze data and Python or Tableau to build dashboards",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Founder",
+        where: "The Gradient Boost",
+        date: "2020 - 2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
+        jobtitle: "Business Intelligence Analyst",
+        where: "Yoco",
         date: "2019",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
+        jobtitle: "Data Analyst",
+        where: "Digitas Liquorice",
         date: "2019",
+    },
+    {
+        jobtitle: "Intern - Analyst",
+        where: "Google (South Africa)",
+        date: "2018",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Development and Design",
+        description: "We'll start off with a free consultative call to map out your needs, set a timeline with milestones and I'll start building.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+        title: "Data Analysis",
+        description: "I can help you uncover insights about your users and build dashboards to help you track your Key Performances Indices.",
+    }
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://peerprogrammingplatform.vercel.app/static/media/peerprogramming.ccfb5581b967a94f2840.png",
+        desctiption: "A pair programming platform helping bootcamp graduates better prepare for technical interviews.",
+        link: "https://peerprogrammingplatform.vercel.app",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: "https://i.postimg.cc/8zCSZBP2/codegame.png",
+        desctiption: "A gamified code editor helping users improve their coding skills by solving as many easy leetcode questions as they can within 25 minutes.",
+        link: "https://code-race.vercel.app",
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "emmanuelsibanda21@gmail.com",
+    YOUR_FONE: "(551)225-9418",
+    description: "Reach out to me via email and let's set up time to chat",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_lcx8kue",
+    YOUR_TEMPLATE_ID: "template_dgtm6a9",
+    YOUR_USER_ID: "wnT7AE4CREgrVR7EL",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/EmmS21",
+    linkedin: "https://www.linkedin.com/in/emmanuel-sibanda-42b49176/"
 };
 export {
     meta,
     dataabout,
     dataportfolio,
     worktimeline,
-    skills,
     services,
     introdata,
     contactConfig,
